@@ -30,10 +30,18 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li class="nav__link" href="#recipes-section">Recipes</li>
-            <li class="nav__link">Book a table</li>
-            <li class="nav__link">Menu</li>
-            <li class="nav__link">Contacts</li>
+            <li>
+              <a class="nav__link" href="#recipes-section">Recipes</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reservation-section">Book a table</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#menu-section">Menu</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#about-section">Contacts</a>
+            </li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -67,13 +75,12 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <ul class="recipes__video">
+          <ul class="recipes__videos">
             <li class="recipes__video-section">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=7z22o8OlHyVB-lzo"
                 title="The Ultimate AeroPress Technique"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -88,7 +95,6 @@
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=pOF9W9bCeEjLSicr"
                 title="The Ultimate French Press Technique"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -100,9 +106,9 @@
             </li>
           </ul>
         </section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
+        <section class="reservation" id="reservation-section"></section>
+        <section class="menu" id="menu-section"></section>
+        <section class="about" id="about-section"></section>
       </main>
       <footer class="footer"></footer>
     </div>
