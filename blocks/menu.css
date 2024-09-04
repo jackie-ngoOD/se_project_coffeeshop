@@ -1,9 +1,9 @@
 .menu {
-  background-color: #fff;
   background: url("../images/background_menu.svg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-color: #fff;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -59,11 +59,9 @@
   margin-top: 0px;
   margin-bottom: 16px;
   list-style-type: none;
-  font-size: 16px;
-  line-height: 20px;
-  font-family: "Noto Serif", "Times New Roman", serif;
   display: flex;
   justify-content: space-between;
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .card__list-item:last-child {
